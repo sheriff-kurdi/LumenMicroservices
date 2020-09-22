@@ -1,39 +1,62 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
+using System.Net.Http;
+using System.Text;
 using System.Threading.Tasks;
+using AspGateway.Models;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
 
 namespace AspGateway.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class WeatherForecastController : ControllerBase
+    public class AuthorsController : ControllerBase
     {
-        private static readonly string[] Summaries = new[]
-        {
-            "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-        };
-
-        private readonly ILogger<WeatherForecastController> _logger;
-
-        public WeatherForecastController(ILogger<WeatherForecastController> logger)
-        {
-            _logger = logger;
-        }
+    
 
         [HttpGet]
-        public IEnumerable<WeatherForecast> Get()
+        public  string Get()
         {
-            var rng = new Random();
-            return Enumerable.Range(1, 5).Select(index => new WeatherForecast
+            HttpClient client = new HttpClient();    
+            client.BaseAddress = new Uri("http://localhost/LumenMicroservices/AuthorsApi/public/");     
+            HttpResponseMessage response = client.GetAsync("authors").Result;  // Blocking call!  
+            var authors =  response.Content.ReadAsStringAsync().Result;   
+            return  authors;
+
+        }
+
+        [HttpGet("{id}")]
+        public  string Get(int id)
+        {
+            HttpClient client = new HttpClient();    
+            client.BaseAddress = new Uri("http://localhost/LumenMicroservices/AuthorsApi/public/");     
+            HttpResponseMessage response = client.GetAsync($"authors/{id}").Result;  // Blocking call!  
+            var authors =  response.Content.ReadAsStringAsync().Result;   
+            return  authors;
+
+        }
+
+        [HttpPost]
+        public async Task<ActionResult> PostAsync([FromForm] Author author)      
+        {
+
+
+            var client = new HttpClient();
+
+            client.BaseAddress = new Uri("http://localhost/LumenMicroservices/AuthorsApi/public/");
+            var content = new FormUrlEncodedContent(new[]
             {
-                Date = DateTime.Now.AddDays(index),
-                TemperatureC = rng.Next(-20, 55),
-                Summary = Summaries[rng.Next(Summaries.Length)]
-            })
-            .ToArray();
+                new KeyValuePair<string, string>("name", "sheriff"),
+                new KeyValuePair<string, string>("country", "egypt"),
+                new KeyValuePair<string, string>("gender", "male"),
+            });
+
+
+            var result = await client.PostAsync("authors", content);
+            string resultContent = await result.Content.ReadAsStringAsync();
+            return Ok(new { resultContent, content });
+
         }
     }
 }

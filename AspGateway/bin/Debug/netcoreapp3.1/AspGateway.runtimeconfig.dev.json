@@ -1,8 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "/home/kurdi/.dotnet/store/|arch|/|tfm|",
-      "/home/kurdi/.nuget/packages"
+      "C:\\Users\\Kurdi\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Kurdi\\.nuget\\packages"
     ]
   }
 }

@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "WGLezT7MVPFtgacUOeTd+R2TrIWKRdg1M1j+y0W5WzfknzNgoPe5F0rYWrPhZvtnuIDCeuoVeSev8e7LwuC5Og==",
+  "dgSpecHash": "gTu6srycidYviYsqfIEaGKZNgqIzVCtefV9Jxwl29J4tH/1XnHQwCkBOdcck5TyKnPNcq1LUdQtA1iyZxHChVQ==",
   "success": true,
-  "projectFilePath": "/var/www/html/LumenMicroservices/AspGateway/AspGateway.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\xampp\\htdocs\\LumenMicroservices\\AspGateway\\AspGateway.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Kurdi\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\Kurdi\\.nuget\\packages\\restsharp\\106.11.5\\restsharp.106.11.5.nupkg.sha512"
+  ],
   "logs": []
 }
