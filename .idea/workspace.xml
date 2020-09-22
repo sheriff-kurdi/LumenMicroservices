@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="76c36348-240e-4d7b-a51b-fbd7ff50d30a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/BooksApi/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="PhpDebugGeneral" xdebug_debug_port="9001" zd_debug_port="9001" />
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/BooksApi/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/BooksApi/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/BooksApi/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/BooksApi/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/BooksApi/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/BooksApi/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/BooksApi/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/BooksApi/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/BooksApi/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/BooksApi/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/BooksApi/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/BooksApi/vendor/phpunit/php-invoker" />
+      <path value="$PROJECT_DIR$/BooksApi/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/BooksApi/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/BooksApi/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/BooksApi/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/BooksApi/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/BooksApi/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/BooksApi/vendor/laravel/lumen-framework" />
+      <path value="$PROJECT_DIR$/BooksApi/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/BooksApi/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/BooksApi/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/BooksApi/vendor/ramsey/collection" />
+      <path value="$PROJECT_DIR$/BooksApi/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/BooksApi/vendor/nikic/fast-route" />
+      <path value="$PROJECT_DIR$/BooksApi/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/BooksApi/vendor/brick/math" />
+      <path value="$PROJECT_DIR$/BooksApi/vendor/voku/portable-ascii" />
+      <path value="$PROJECT_DIR$/BooksApi/vendor/opis/closure" />
+      <path value="$PROJECT_DIR$/BooksApi/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/BooksApi/vendor/psr/event-dispatcher" />
+      <path value="$PROJECT_DIR$/BooksApi/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/BooksApi/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/BooksApi/vendor/composer" />
+      <path value="$PROJECT_DIR$/BooksApi/vendor/graham-campbell/result-type" />
+      <path value="$PROJECT_DIR$/BooksApi/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/BooksApi/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/BooksApi/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/BooksApi/vendor/dragonmantank/cron-expression" />
+      <path value="$PROJECT_DIR$/BooksApi/vendor/illuminate/config" />
+      <path value="$PROJECT_DIR$/BooksApi/vendor/illuminate/collections" />
+      <path value="$PROJECT_DIR$/BooksApi/vendor/illuminate/broadcasting" />
+      <path value="$PROJECT_DIR$/BooksApi/vendor/illuminate/http" />
+      <path value="$PROJECT_DIR$/BooksApi/vendor/illuminate/container" />
+      <path value="$PROJECT_DIR$/BooksApi/vendor/illuminate/console" />
+      <path value="$PROJECT_DIR$/BooksApi/vendor/illuminate/contracts" />
+      <path value="$PROJECT_DIR$/BooksApi/vendor/illuminate/testing" />
+      <path value="$PROJECT_DIR$/BooksApi/vendor/illuminate/session" />
+      <path value="$PROJECT_DIR$/BooksApi/vendor/illuminate/pagination" />
+      <path value="$PROJECT_DIR$/BooksApi/vendor/illuminate/encryption" />
+      <path value="$PROJECT_DIR$/BooksApi/vendor/illuminate/validation" />
+      <path value="$PROJECT_DIR$/BooksApi/vendor/illuminate/translation" />
+      <path value="$PROJECT_DIR$/BooksApi/vendor/illuminate/log" />
+      <path value="$PROJECT_DIR$/BooksApi/vendor/illuminate/bus" />
+      <path value="$PROJECT_DIR$/BooksApi/vendor/illuminate/hashing" />
+      <path value="$PROJECT_DIR$/BooksApi/vendor/illuminate/macroable" />
+      <path value="$PROJECT_DIR$/BooksApi/vendor/illuminate/auth" />
+      <path value="$PROJECT_DIR$/BooksApi/vendor/illuminate/queue" />
+      <path value="$PROJECT_DIR$/BooksApi/vendor/illuminate/view" />
+      <path value="$PROJECT_DIR$/BooksApi/vendor/illuminate/events" />
+      <path value="$PROJECT_DIR$/BooksApi/vendor/illuminate/cache" />
+      <path value="$PROJECT_DIR$/BooksApi/vendor/illuminate/filesystem" />
+      <path value="$PROJECT_DIR$/BooksApi/vendor/illuminate/support" />
+      <path value="$PROJECT_DIR$/BooksApi/vendor/illuminate/pipeline" />
+      <path value="$PROJECT_DIR$/BooksApi/vendor/illuminate/database" />
+      <path value="$PROJECT_DIR$/BooksApi/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/BooksApi/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/BooksApi/vendor/sebastian/lines-of-code" />
+      <path value="$PROJECT_DIR$/BooksApi/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/BooksApi/vendor/sebastian/cli-parser" />
+      <path value="$PROJECT_DIR$/BooksApi/vendor/sebastian/code-unit" />
+      <path value="$PROJECT_DIR$/BooksApi/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/BooksApi/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/BooksApi/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/BooksApi/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/BooksApi/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/BooksApi/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/BooksApi/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/BooksApi/vendor/sebastian/complexity" />
+      <path value="$PROJECT_DIR$/BooksApi/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/BooksApi/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/BooksApi/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/BooksApi/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/BooksApi/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/BooksApi/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/BooksApi/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/BooksApi/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/BooksApi/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/BooksApi/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/BooksApi/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/BooksApi/vendor/symfony/polyfill-php70" />
+      <path value="$PROJECT_DIR$/BooksApi/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/BooksApi/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/BooksApi/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/BooksApi/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/BooksApi/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/BooksApi/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/BooksApi/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/BooksApi/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/BooksApi/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/BooksApi/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/BooksApi/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/BooksApi/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/BooksApi/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/BooksApi/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/BooksApi/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/BooksApi/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/BooksApi/vendor/symfony/var-dumper" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1hpPYuoOKjZJmJllGxRxBmPpLU3" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.debug" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="76c36348-240e-4d7b-a51b-fbd7ff50d30a" name="Default Changelist" comment="" />
+      <created>1600705110421</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600705110421</updated>
+      <workItem from="1600705111539" duration="1873000" />
+      <workItem from="1600773098626" duration="3799000" />
+      <workItem from="1600782907001" duration="12000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1584" y="186" width="824" height="691" key="#CLI_Interpreters" timestamp="1600773222470">
+      <screen x="1366" y="0" width="1280" height="1024" />
+    </state>
+    <state x="1584" y="186" width="824" height="691" key="#CLI_Interpreters/1366.0.1280.1024/0.256.1366.768@1366.0.1280.1024" timestamp="1600773222470" />
+    <state x="1635" y="207" width="732" height="644" key="#Inspections" timestamp="1600707295938">
+      <screen x="1366" y="0" width="1280" height="1024" />
+    </state>
+    <state x="1635" y="207" width="732" height="644" key="#Inspections/1366.0.1280.1024/0.256.1366.768@1366.0.1280.1024" timestamp="1600707295938" />
+    <state x="1727" y="348" width="604" height="357" key="#Notifications" timestamp="1600774721110">
+      <screen x="1366" y="0" width="1280" height="1024" />
+    </state>
+    <state x="1727" y="348" width="604" height="357" key="#Notifications/1366.0.1280.1024/0.256.1366.768@1366.0.1280.1024" timestamp="1600774721110" />
+    <state x="1651" y="149" width="700" height="759" key="#PHP" timestamp="1600773225093">
+      <screen x="1366" y="0" width="1280" height="1024" />
+    </state>
+    <state x="1651" y="149" width="700" height="759" key="#PHP/1366.0.1280.1024/0.256.1366.768@1366.0.1280.1024" timestamp="1600773225093" />
+    <state x="1495" y="160" width="1022" height="737" key="SettingsEditor" timestamp="1600774894315">
+      <screen x="1366" y="0" width="1280" height="1024" />
+    </state>
+    <state x="1495" y="160" width="1022" height="737" key="SettingsEditor/1366.0.1280.1024/0.256.1366.768@1366.0.1280.1024" timestamp="1600774894315" />
+  </component>
+</project>
